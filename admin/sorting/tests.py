@@ -1,7 +1,7 @@
 from django.test import TestCase
 import unittest
-import sys
-sys.path.append('/admin/sorting')
+# import sys
+# sys.path.append('/admin/sorting')
 from models import MySum
 
 class TestMySum(unittest.TestCase):
